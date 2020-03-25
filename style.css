@@ -59,6 +59,13 @@ h1.luigi:hover ~ .container .rosso {
     border: 1px solid black;
 }
 
+.bianco {
+    height: 30px;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
 @media screen and (max-width: 830px) {
     h1 {
         font-size: 20px;
