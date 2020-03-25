@@ -12,10 +12,10 @@ h1 {
     text-transform: uppercase;
 }
 
-h1.mario:hover ~ .container .rosso {
+h1.mario:hover ~ .container .vestiti {
     background-color: red;
 }
-h1.luigi:hover ~ .container .rosso {
+h1.luigi:hover ~ .container .vestiti {
     background-color: green;
 }
 
@@ -29,9 +29,8 @@ h1.luigi:hover ~ .container .rosso {
     color: white;
 }
 
-.rosso {
+.vestiti {
     height: 50px;
-    /* background-color: red; */
     border: 1px solid black;
 }
 
@@ -41,9 +40,9 @@ h1.luigi:hover ~ .container .rosso {
     border: 1px solid black;
 }
 
-.giallo {
+.pelle {
     height: 50px;
-    background-color: yellow;
+    background-color: #E9A24A;
     border: 1px solid black;
 }
 
@@ -59,12 +58,15 @@ h1.luigi:hover ~ .container .rosso {
     border: 1px solid black;
 }
 
-.bianco {
+.occhi {
     height: 30px;
     background-color: white;
     border: 1px solid black;
     margin-top: 10px;
+    border-radius: 10%;
 }
+
+
 
 @media screen and (max-width: 830px) {
     h1 {
